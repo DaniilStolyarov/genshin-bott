@@ -26,4 +26,4 @@ bot.on((ctx) => {
   
   app.post('/', bot.webhookCallback);
   
-  app.listen(3000);
+  app.listen(process.env.PORT);
