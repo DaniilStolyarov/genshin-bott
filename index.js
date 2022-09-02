@@ -1,7 +1,6 @@
 const VkBot = require('node-vk-bot-api');
 const express = require('express');
 const bodyParser = require('body-parser')
-const jsonParser = bodyParser.json();
 
 const app = express();
 
